@@ -1,6 +1,26 @@
 nginx
 xhofe/alist:latest
 xiaoyaliu/alist:hostmode
+#Zabbix | Link:https://www.zabbix.com/documentation/current/en/manual/installation/containers
+#        ————————
+#        |Zabbix|
+#         \     /
+#          \   /
+#           \ /
+zabbix/zabbix-server-mysql
+zabbix/zabbix-server-pgsql
+zabbix/zabbix-proxy-sqlite3
+zabbix/zabbix-proxy-mysql
+zabbix/zabbix-web-apache-mysql
+zabbix/zabbix-web-apache-pgsql
+zabbix/zabbix-web-nginx-mysql
+zabbix/zabbix-web-nginx-pgsql
+zabbix/zabbix-agent
+zabbix/zabbix-agent2
+zabbix/zabbix-java-gateway
+zabbix/zabbix-snmptraps
+zabbix/zabbix-web-service
+# 13
 
 ##故障镜像
 #laoyutang/clash-and-dashboard:latest
