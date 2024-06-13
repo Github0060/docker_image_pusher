@@ -1,34 +1,36 @@
-nginx
-xhofe/alist:latest
-xiaoyaliu/alist:hostmode
+nginx /*YES*/
+xhofe/alist:latest /*YES*/
+xiaoyaliu/alist:hostmode /*YES*/
 #Zabbix | Link:https://www.zabbix.com/documentation/current/en/manual/installation/containers
 #        ————————
 #        |Zabbix|
 #         \     /
 #          \   /
 #           \ /
-zabbix/zabbix-appliance
-zabbix/zabbix-server-mysql
-zabbix/zabbix-server-pgsql
-zabbix/zabbix-proxy-sqlite3
-zabbix/zabbix-proxy-mysql
-zabbix/zabbix-web-apache-mysql
-zabbix/zabbix-web-apache-pgsql
-zabbix/zabbix-web-nginx-mysql
-zabbix/zabbix-web-nginx-pgsql
-zabbix/zabbix-agent
-zabbix/zabbix-agent2
-zabbix/zabbix-java-gateway
-zabbix/zabbix-snmptraps
-zabbix/zabbix-web-service
+/*
+zabbix/zabbix-appliance /*YES*/
+zabbix/zabbix-server-mysql /*YES*/
+zabbix/zabbix-server-pgsql /*YES*/
+zabbix/zabbix-proxy-sqlite3 /*YES*/
+zabbix/zabbix-proxy-mysql /*YES*/
+zabbix/zabbix-web-apache-mysql /*YES*/
+zabbix/zabbix-web-apache-pgsql /*YES*/
+zabbix/zabbix-web-nginx-mysql /*YES*/
+zabbix/zabbix-web-nginx-pgsql /*YES*/
+zabbix/zabbix-agent /*YES*/
+zabbix/zabbix-agent2 /*YES*/
+zabbix/zabbix-java-gateway /*YES*/
+zabbix/zabbix-snmptraps /*YES*/
+zabbix/zabbix-web-service /*YES*/
+*/
 # 13
 
 ##故障镜像
 #laoyutang/clash-and-dashboard:latest
 
 #支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
+k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0 /*YES*/
 
 #支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
---platform=linux/amd64 xiaoyaliu/alist
+--platform=linux/arm64 xiaoyaliu/alist /*YES*/
+--platform=linux/amd64 xiaoyaliu/alist /*YES*/
