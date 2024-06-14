@@ -1,36 +1,38 @@
-nginx 
-xhofe/alist:latest 
-xiaoyaliu/alist:hostmode 
+#nginx 
+#xhofe/alist:latest 
+#xiaoyaliu/alist:hostmode 
 #Zabbix | Link:https://www.zabbix.com/documentation/current/en/manual/installation/containers
 #        ————————
 #        |Zabbix|
 #         \     /
 #          \   /
 #           \ /
-zabbix/zabbix-appliance 
-zabbix/zabbix-server-mysql 
-zabbix/zabbix-server-pgsql 
-zabbix/zabbix-proxy-sqlite3 
-zabbix/zabbix-proxy-mysql 
-zabbix/zabbix-web-apache-mysql 
-zabbix/zabbix-web-apache-pgsql 
-zabbix/zabbix-web-nginx-mysql 
-zabbix/zabbix-web-nginx-pgsql 
-zabbix/zabbix-agent 
-zabbix/zabbix-agent2 
-zabbix/zabbix-java-gateway 
-zabbix/zabbix-snmptraps 
-zabbix/zabbix-web-service 
+#zabbix/zabbix-appliance
+#zabbix/zabbix-server-mysql
+#zabbix/zabbix-server-pgsql
+#zabbix/zabbix-proxy-sqlite3
+#zabbix/zabbix-proxy-mysql
+#zabbix/zabbix-web-apache-mysql
+#zabbix/zabbix-web-apache-pgsql
+#zabbix/zabbix-web-nginx-mysql
+#zabbix/zabbix-web-nginx-pgsql
+#zabbix/zabbix-agent
+#zabbix/zabbix-agent2
+#zabbix/zabbix-java-gateway
+#zabbix/zabbix-snmptraps
+#zabbix/zabbix-web-service
 # 13
 #宝塔
-btpanel/baota:lnmp
+#btpanel/baota:lnmp
+#CentOS
+centos:7.2.1511
 
 ##故障镜像
 #laoyutang/clash-and-dashboard:latest
 
 #支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0 
+#k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0 
 
 #支持指定架构
---platform=linux/arm64 xiaoyaliu/alist 
---platform=linux/amd64 xiaoyaliu/alist 
+#--platform=linux/arm64 xiaoyaliu/alist 
+#--platform=linux/amd64 xiaoyaliu/alist 
