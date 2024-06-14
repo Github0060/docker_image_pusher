@@ -7,7 +7,6 @@ xiaoyaliu/alist:hostmode
 #         \     /
 #          \   /
 #           \ /
-<!--
 zabbix/zabbix-appliance 
 zabbix/zabbix-server-mysql 
 zabbix/zabbix-server-pgsql 
@@ -22,8 +21,9 @@ zabbix/zabbix-agent2
 zabbix/zabbix-java-gateway 
 zabbix/zabbix-snmptraps 
 zabbix/zabbix-web-service 
--->
 # 13
+#宝塔
+btpanel/baota:lnmp
 
 ##故障镜像
 #laoyutang/clash-and-dashboard:latest
