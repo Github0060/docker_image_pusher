@@ -23,9 +23,11 @@
 #zabbix/zabbix-web-service
 # 13
 #宝塔
-#btpanel/baota:lnmp
+btpanel/baota:latest
+btpanel/baota:lnmp
+btpanel/baota:lamp
 #CentOS
-centos:7.2.1511
+#centos:7.2.1511
 
 ##故障镜像
 #laoyutang/clash-and-dashboard:latest
