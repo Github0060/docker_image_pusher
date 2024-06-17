@@ -22,7 +22,7 @@
 #zabbix/zabbix-snmptraps
 #zabbix/zabbix-web-service
 # 13
-#宝塔
+#宝塔---服务器管理
 #btpanel/baota:latest
 #btpanel/baota:lnmp
 #btpanel/baota:lamp
@@ -30,6 +30,10 @@
 #centos:7.2.1511
 #Ubuntu
 #ubuntu:latest
+#RustDesk---远程
+rustdesk/rustdesk-server:latest
+rustdesk/rustdesk-server-pro:latest
+
 
 ##故障镜像
 #laoyutang/clash-and-dashboard:latest
