@@ -28,6 +28,8 @@ btpanel/baota:lnmp
 btpanel/baota:lamp
 #CentOS
 #centos:7.2.1511
+#Ubuntu
+ubuntu:latest
 
 ##故障镜像
 #laoyutang/clash-and-dashboard:latest
