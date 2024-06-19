@@ -31,8 +31,10 @@
 #Ubuntu
 #ubuntu:latest
 #RustDesk---远程
-rustdesk/rustdesk-server:latest
-rustdesk/rustdesk-server-pro:latest
+#rustdesk/rustdesk-server:latest
+#rustdesk/rustdesk-server-pro:latest
+#个人知识管理软件Siyuan
+b3log/siyuan:latest
 
 
 ##故障镜像
