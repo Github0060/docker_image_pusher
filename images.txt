@@ -36,7 +36,9 @@
 #个人知识管理软件Siyuan
 #b3log/siyuan:latest
 #备忘录项目memos
-neosmemo/memos:latest
+#neosmemo/memos:latest
+#月海(Sea Moon)---云平台网络工具集
+dvkunion/seamoon:latest
 
 
 ##故障镜像
