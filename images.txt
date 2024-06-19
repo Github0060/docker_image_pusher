@@ -34,7 +34,9 @@
 #rustdesk/rustdesk-server:latest
 #rustdesk/rustdesk-server-pro:latest
 #个人知识管理软件Siyuan
-b3log/siyuan:latest
+#b3log/siyuan:latest
+#备忘录项目memos
+neosmemo/memos:latest
 
 
 ##故障镜像
