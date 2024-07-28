@@ -1,6 +1,7 @@
 #nginx 
 #xhofe/alist:latest 
 #xiaoyaliu/alist:hostmode 
+------------------------------------------------------------------------------------------------
 #Zabbix | Link:https://www.zabbix.com/documentation/current/en/manual/installation/containers
 #        ————————
 #        |Zabbix|
@@ -22,30 +23,43 @@
 #zabbix/zabbix-snmptraps
 #zabbix/zabbix-web-service
 # 13
+-----------------------------------------------------------
 #宝塔---服务器管理
-#btpanel/baota:latest
-#btpanel/baota:lnmp
-#btpanel/baota:lamp
+btpanel/baota:latest
+btpanel/baota:lnmp
+btpanel/baota:lamp
+-----------------------------------------------------------
 #CentOS
 #centos:7.2.1511
+-----------------------------------------------------------
 #Ubuntu
 #ubuntu:latest
-#RustDesk---远程
+-----------------------------------------------------------
+#RustDesk---远程服务端
 #rustdesk/rustdesk-server:latest
 #rustdesk/rustdesk-server-pro:latest
+-----------------------------------------------------------
 #个人知识管理软件Siyuan
 #b3log/siyuan:latest
+-----------------------------------------------------------
 #备忘录项目memos
 #neosmemo/memos:latest
+-----------------------------------------------------------
 #月海(Sea Moon)---云平台网络工具集
-dvkunion/seamoon:latest
+#dvkunion/seamoon:latest
+-----------------------------------------------------------
+
 
 
 ##故障镜像
 #laoyutang/clash-and-dashboard:latest
 
+
+
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0 
+
+
 
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist 
