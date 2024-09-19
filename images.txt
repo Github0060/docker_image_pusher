@@ -25,9 +25,9 @@
 # 13
 ##-----------------------------------------------------------
 #宝塔---服务器管理
-btpanel/baota:latest
-btpanel/baota:lnmp
-btpanel/baota:lamp
+#btpanel/baota:latest
+#btpanel/baota:lnmp
+#btpanel/baota:lamp
 ##-----------------------------------------------------------
 #CentOS
 #centos:7.2.1511
@@ -48,6 +48,22 @@ btpanel/baota:lamp
 #月海(Sea Moon)---云平台网络工具集
 #dvkunion/seamoon:latest
 ##-----------------------------------------------------------
+#####Mac-OSX项目######
+#Catalina 1.72GB
+sickcodes/docker-osx:latest
+#Big Sur 2.31GB
+sickcodes/docker-osx:big-sur
+#Monterey 2.30GB
+sickcodes/docker-osx:monterey
+#Ventura 2.36GB
+sickcodes/docker-osx:ventura
+#Sonoma 2.44GB
+sickcodes/docker-osx:sonoma
+#High Sierra 2.11GB
+sickcodes/docker-osx:high-sierra
+#Mojave 2.11GB
+sickcodes/docker-osx:mojave
+#####  #####
 
 
 
